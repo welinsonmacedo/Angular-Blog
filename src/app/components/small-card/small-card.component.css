@@ -2,8 +2,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px 0 20px 0;
+  margin: 36px 0 20px 0;
+  border-bottom: 2px solid white;
 }
 .small-card__description{
   padding: 15px;
+}
+.small-card__picture >img{
+  width: 200px;
+  height: 100px;
 }
