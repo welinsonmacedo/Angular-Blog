@@ -1,0 +1,9 @@
+.container__small-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0 20px 0;
+}
+.small-card__description{
+  padding: 15px;
+}
