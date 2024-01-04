@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-big-card',
   standalone: true,
@@ -14,6 +14,8 @@ photoCover:string=""
 cardTitle:string=""
 @Input()
 cardDescription:string=""
+@Input()
+id:string="0"
   constructor(){}
   ngOnInit(): void {
 
